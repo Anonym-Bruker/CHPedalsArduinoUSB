@@ -20,6 +20,11 @@ I used an Arduino clone from Aliexpress:
 https://vi.aliexpress.com/item/32840365436.html
 ("New" 3-5V USB-C type version ATMEGA32U4 - Emulates Arduino Leonardo)
 
+I also ordered some female game ports:
+https://vi.aliexpress.com/item/1005004701460364.html
+
+Also used some resistors and wires I had from other projects and soldered it all together (I am terrible at soldering)
+
 How I connected it all together:
 --------------------------------
 And I connected the wires to the game port according to this drawing:
