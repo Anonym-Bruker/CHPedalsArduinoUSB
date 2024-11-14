@@ -37,6 +37,10 @@ https://i.iinfo.cz/urs/pc_48_03-123437180089569.jpg
 For pinout on the Arduino I used: 
 https://gadgetau.com.au/storage/2023/06/Arduino-Pro-Micro-Pinout-Diagram-Gadget-AU.webp
 
+This site is also a good guide:
+https://littlebigtech.net/posts/diy-gameport-to-usb-adapter/
+(I did it almost the same way, just without the dip-switch and with less axis and no buttons)
+
 Pictures:
 ---------
 Added some pictures showing the finished product inside a small plastic box.
