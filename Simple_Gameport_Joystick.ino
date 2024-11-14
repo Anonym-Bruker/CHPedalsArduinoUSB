@@ -1,18 +1,9 @@
 
-/*            Throttle script with filtering
- *  This script takes three axis, and filters the signal for an output 
- *  at 50 Hz. The clock is used to exactly time the polling, 
- *  to avoid sampling bias. A crude bandpass filter throws 
- *  away spikes that are impossible(!) to result from user 
- *  input. This will convert spikes on the control axis into 
- *  a mere stutter. Then a Kalman filter is applied to the 
- *  20 Hz signal to remove remaining gaussian noise. 
- *  All axes each get their own one dimensional Kalman 
- *  because there is no correlation that is relevant for the 
- *  filter. The constants in this script are configured for 
- *  the Saitek Pro throttle quadrant.
- *  
- *  BN: Arduino Leonardo VID: 2341 PID: 8036
+/* Script for converting CH Pedals to USB using an Arduino clone
+ * You might consider changing the max and min values to suit your own throttle. Use the values printed out from Serial.print to adjust to correct values.
+ * Also recommended to comment out the Serial.print lines afteryou are done debugging.
+ *
+ *  NB!: Arduino Leonardo VID: 2341 PID: 8036
 */
 
 #include "Joystick.h"
