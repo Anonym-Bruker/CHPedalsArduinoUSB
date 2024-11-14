@@ -15,6 +15,7 @@ int Y_AXIS_MAX = 900;
 You might consider comment out the Serial.print lines when done debugging.
 
 Hardware:
+---------
 I used an Arduino clone from Aliexpress:
 https://vi.aliexpress.com/item/32840365436.html
 ("New" 3-5V USB-C type version ATMEGA32U4 - Emulates Arduino Leonardo)
