@@ -31,3 +31,8 @@ And then I added approx 200kOhm resistance from each of the gameport pins 3 and 
 
 For pinout on the Arduino I used: 
 https://gadgetau.com.au/storage/2023/06/Arduino-Pro-Micro-Pinout-Diagram-Gadget-AU.webp
+
+Pictures:
+---------
+Added some pictures showing the finished product inside a small plastic box.
+(And yes, I know I suck at soldering... :) )
