@@ -1,6 +1,8 @@
 # CHPedalsArduinoUSB
 Code for converting CH Pedals from using a Gameport to using USB as output
 
+What you might need to change in the code:
+-----------------------------------------
 You should review, and probably change these values, to match up to what you get.
 (Check the values printed out in the Serial.print, and adjust accordingly)
 int X_AXIS_MIN = 20;
@@ -11,3 +13,20 @@ int X_AXIS_MAX = 900;
 int Y_AXIS_MAX = 900;
 
 You might consider comment out the Serial.print lines when done debugging.
+
+Hardware:
+I used an Arduino clone from Aliexpress:
+https://vi.aliexpress.com/item/32840365436.html
+("New" 3-5V USB-C type version ATMEGA32U4 - Emulates Arduino Leonardo)
+
+How I connected it all together:
+--------------------------------
+And I connected the wires to the game port according to this drawing:
+https://i.iinfo.cz/urs/pc_48_03-123437180089569.jpg
+
+I.e. Axis 1 (Game port pin 3) and axis 2 (Game port pin 6) to A0 and A1 on my Arduino
+Then I connected pin 4 to ground and pin 1 to VCC on my Arduino
+And then I added approx 200kOhm resistance from each of the gameport pins 3 and 6 to ground.
+
+For pinout on the Arduino I used: 
+https://gadgetau.com.au/storage/2023/06/Arduino-Pro-Micro-Pinout-Diagram-Gadget-AU.webp
